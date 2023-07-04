@@ -1,0 +1,172 @@
+body{
+    color: #40514E;
+    margin: 0px;
+    text-align: center;/*this will center everything that doesn't have a width set */
+    font-family: 'verdana',  sans-serif;
+    
+}
+
+h1 {
+    margin: 50px auto 50px auto;
+    font-size: 5.625em;
+    /*line-height: 2; */
+    /*NB: 100%=16px=1em. Now em is the phonetic pronounciation of M  */
+    font-family:   sans-serif;
+    color: #66BFBF;
+     
+   /* width: 10%;// now if it is a block element and it has a width set, then we going to have to center it using the auto value in the margin*/
+    
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+.my-skillBio{
+    color: #40514E;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+
+.top-container{
+    /*border: solid; solid border will give you a default border*/
+    /* background-color: #E4F9F5; */
+    background-color: #e4f1f9;
+    padding-top: 100px;
+    
+   
+}
+
+.my-profile{
+    margin: 100px 0;
+    width: 200px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.intro{
+    width: 30%;
+    margin:  auto;
+
+}
+
+.top-cloud{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+
+.bottom-cloud{
+    position: absolute;
+}
+
+a{
+      color: #11999E;
+}
+
+.skill-row{
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+   
+}
+
+/*NB: use the float property only for the wrapping of text, for positioning, use position property.*/
+.laptop-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px; /*we can also use 'padding-right'*/
+}
+
+.music-image{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+hr{
+    border: dotted #EAF6F6;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;  
+}
+
+.contact-message{
+    width: 40%;
+    margin: 30px auto 60px auto;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem; 
+    padding: 20px 0;
+}
+
+.footer-link{
+    color: #11999E;
+    word-spacing: 10px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF ; 
+    padding: 50px 0 20px;
+
+    
+}
+
+a{
+    color: #11999E;
+    margin: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.btn {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #3498db);
+    background-image: -moz-linear-gradient(top, #30e3cb, #3498db);
+    background-image: -ms-linear-gradient(top, #30e3cb, #3498db);
+    background-image: -o-linear-gradient(top, #30e3cb, #3498db);
+    background-image: linear-gradient(to bottom, #30e3cb, #3498db);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+    
+    
